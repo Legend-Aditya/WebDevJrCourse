@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Forms </title>
+</head>
+<body>
+
+      <h1>Application Form</h1>   
+
+
+      <form>
+          <!-- Name , email , School Name , Roll number , etc -->
+          <form action="" method="">
+            <!-- This is a form -->
+
+            <fieldset>
+              <legend>
+                Personal Details
+              </legend>
+<br />
+
+                  <label for="username">Name</label>
+                    <input required type="text" name="username" id = "username" placeholder="Your Name" />
+<br />
+<br />
+              <label for="emailid">Email </label>
+              <input required type="email" name="emailid" placeholder="Your Email id"/>
+              
+              <br />
+              <br />
+    
+              <label for="password">Password </label>
+              <input required type="password" name="password" id="password" placeholder="password"/>
+    
+              <br />
+              <br />
+    
+              
+              <label for="Phone"> Phone number </label>
+              <input required type="number" name="phone" id="phone" placeholder="Phone number"/>
+    
+              <br />
+              <br />
+    
+              <label for="dob"> Date of Birth </label>
+              <input required type="date" name="dob" id="date" placeholder="Date of Birth"/>
+              <br />
+              <br />
+
+
+            </fieldset>
+
+        
+        <br />
+        <!-- Keep label for getting clarity -->
+
+          
+          
+          <fieldset>
+            <legend>
+              Educational and Bocala Details
+            </legend>
+
+          <label for="school"> School Name  </label>
+          <input required type="text" name="school" id="school" placeholder="Your School Name"/>
+
+          <br />
+          <br />
+
+          <label for="school"> Standard/Class </label>
+          <input required type="number" name="standard" id="standard" />
+
+          <br />
+          <br />
+
+          <label for="slc"> Transfer Certificate </label>
+          <input required type="file" name="slc" id="slc" placeholder="Transfer Certificate"/>
+          
+          <br />
+          <br />
+            <label for="stream">Choose your stream</label>
+          <select name="stream" id="stream">
+            <option value="Medical">Medical</option>
+
+            <option value="Agriculture">Agriculture</option>
+            <option value="Coding">coding</option>
+          </select>
+          <br />
+          <br />
+          <input type="submit" value="Submit Form"  />
+        </fieldset>
+        <fieldset>
+          <legend>Interests</legend>
+
+          <label for="color">Favourite Color</label>
+          <input type="color" name="color" id="color" required placeholder="Fav Sport">
+
+            <br />
+            <br />
+
+            <label for="Gender">Gender</label>
+            
+            <br />
+  
+          <input type="radio" name="gender">Male
+          <br />
+          
+
+            
+        <input type="radio" name="gender" />Female
+
+
+
+
+
+        </fieldset>
+        </form>
+      
+
+
+
+
+
+
+
+
+    
+</body>
+</html>
